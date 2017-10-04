@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SecrectMap.cpp">
+    <ClCompile Include="SecretMap.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
