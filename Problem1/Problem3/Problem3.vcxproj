@@ -146,6 +146,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cache.cpp" />
+    <ClCompile Include="Element.cpp" />
+    <ClCompile Include="LRUCache.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cache.h" />
+    <ClInclude Include="Element.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
