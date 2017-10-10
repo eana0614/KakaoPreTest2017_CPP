@@ -31,22 +31,22 @@ Block Block::getLeft()
 
 void Block::setUp(Block b)
 {
-	*up = b;
+	up = &b;
 }
 
 void Block::setDown(Block b)
 {
-	*down = b;
+	down = &b;
 }
 
 void Block::setRight(Block b)
 {
-	*right = b;
+	right = &b;
 }
 
 void Block::setLeft(Block b)
 {
-	*left = b;
+	left = &b;
 }
 
 void Block::setBlock(char c)
